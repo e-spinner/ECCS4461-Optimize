@@ -1,0 +1,19 @@
+[project]
+name = "eccs4461-optimize"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.0.2",
+    "pulp>=3.3.0",
+    "pymoo>=0.6.1.6",
+]
+
+[tool.ruff]
+select = ["E", "F", "W"]
+ignore = ["F401", "E703", "F841", "E501"]
+line-length = 100
+indent-width = 2
+target-version = "py312"
+exclude = ["install/*", "build/*"]
