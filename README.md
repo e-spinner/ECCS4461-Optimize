@@ -38,7 +38,7 @@ Bidders Selected: ['Byte Repair', 'EcoHome Goods', 'VR Arena']
 Execution Time:   0.0004531260000000259
 ```
 
-## Anylysis
+## Analysis
 
 Brute Force and Mixed-Integer Programming both reach the global optimum: Max Profit = $35,580.00 at 6000 ft3 with bidders ['Byte Repair', 'EcoHome Goods', 'VR Arena']. The Genetic Algorithm returns a feasible but slightly worse solution: Max Profit = $33,600.00 at 6000 ft3 with bidders ['Polar Brew Coffee', 'Tech Haven', 'Byte Repair', "Clyde's Photo, Ada"]. This is typical without heavier tuning or longer runs.
 
